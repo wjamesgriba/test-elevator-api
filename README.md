@@ -83,21 +83,15 @@ Key Features:
    dotnet run
    ```
 
-3. **Using Docker**
-
-   ```bash
-   # Build the Docker image
-   docker build -t elevator-api .
-
-   # Run the container
-   docker run -p 8080:8080 -p 8081:8081 elevator-api
-   ```
-
 ### Accessing the API
 
 - API Base URL: https://localhost:7094
 - Swagger UI: https://localhost:7094/swagger
 - HTTP endpoint: http://localhost:5095
+
+### Postman
+
+- Import postman collection included on the repository.
 
 ## 4. Request Processing Flow
 
@@ -122,7 +116,7 @@ Key Features:
    - Returns to idle state if no more requests
 
 4. **Simulation Process**
-   - Must be started explicitly via API
+   - Must be started/stopped explicitly via API
    - Processes all queued requests
    - Generates random requests every 15 seconds
    - Updates elevator states in real-time
