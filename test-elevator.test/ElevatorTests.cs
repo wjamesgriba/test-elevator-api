@@ -4,6 +4,7 @@ using NUnit.Framework;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using test_elevator.core.Enums;
 using test_elevator.core.Models;
 using test_elevator.core.Services;
 

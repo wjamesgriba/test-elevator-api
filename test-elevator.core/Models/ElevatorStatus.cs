@@ -1,4 +1,6 @@
-﻿namespace test_elevator.core.Models
+﻿using test_elevator.core.Enums;
+
+namespace test_elevator.core.Models
 {
     /// <summary>
     /// Represents the current status of an elevator

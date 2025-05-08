@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lXJAb4epKls=",
+  "dgSpecHash": "yguulDtx0jk=",
   "success": true,
-  "projectFilePath": "D:\\Work\\Test\\test-elevator\\test-elevator.api\\test-elevator.test\\test-elevator.test.csproj",
+  "projectFilePath": "D:\\Work\\test-elevator-api\\test-elevator.test\\test-elevator.test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jaycee Griba\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Jaycee Griba\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

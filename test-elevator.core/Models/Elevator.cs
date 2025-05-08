@@ -1,4 +1,6 @@
-﻿namespace test_elevator.core.Models
+﻿using test_elevator.core.Enums;
+
+namespace test_elevator.core.Models
 {
     /// <summary>
     /// Represents an elevator in the system
@@ -38,26 +40,5 @@
                 CurrentDirection = request.Direction;
             }
         }
-    }
-
-    /// <summary>
-    /// Represents the possible states of an elevator
-    /// </summary>
-    public enum ElevatorState
-    {
-        Idle,
-        Moving,
-        DoorOpen,
-        DoorClosing
-    }
-
-    /// <summary>
-    /// Represents the direction of elevator movement
-    /// </summary>
-    public enum Direction
-    {
-        None,
-        Up,
-        Down
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using test_elevator.core.DTOs;
 using test_elevator.core.Interfaces;
 using test_elevator.core.Models;
 
@@ -14,10 +15,8 @@ namespace test_elevator.api.Controllers
     {
         private readonly IElevatorService _elevatorService;
 
-        public ElevatorController(IElevatorService elevatorService)
-        {
-            _elevatorService = elevatorService;
-        }
+        public ElevatorController(IElevatorService elevatorService) 
+            => _elevatorService = elevatorService;
 
         /// <summary>
         /// Gets the current status of all elevators
@@ -35,15 +34,35 @@ namespace test_elevator.api.Controllers
         [HttpPost("request")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult RequestElevator([FromBody] ElevatorRequest request)
+        public IActionResult RequestElevator([FromBody] CreateElevatorRequest elevatorRequest)
         {
-            if (!request.IsValid())
-            {
-                return BadRequest("Invalid request parameters");
-            }
+            if (elevatorRequest == null)
+                return BadRequest("Request cannot be null");
 
-            _elevatorService.RequestElevator(request.SourceFloor, request.DestinationFloor, request.Direction);
+            _elevatorService.RequestElevator(elevatorRequest.SourceFloor, elevatorRequest.DestinationFloor, elevatorRequest.Direction);
             return Ok("Request submitted successfully");
+        }
+
+        /// <summary>
+        /// Starts the elevator simulation
+        /// </summary>
+        [HttpPost("start-simulation")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public IActionResult StartSimulation()
+        {
+            _elevatorService.StartSimulation();
+            return Ok("Elevator simulation started");
+        }
+
+        /// <summary>
+        /// Stops the elevator simulation
+        /// </summary>
+        [HttpPost("stop-simulation")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public IActionResult StopSimulation()
+        {
+            _elevatorService.StopSimulation();
+            return Ok("Elevator simulation stopped");
         }
     }
 }

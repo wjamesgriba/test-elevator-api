@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "a18912c9-997f-4e18-b90d-08a8ff3ad493",
+		"name": "Elevator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22957362"
+	},
+	"item": [
+		{
+			"name": "Get Elevator Statuses",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7094/api/Elevator/status",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7094",
+					"path": [
+						"api",
+						"Elevator",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Elevator Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"sourceFloor\": 1,\r\n  \"destinationFloor\": 5,\r\n  \"direction\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7094/api/Elevator/request",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7094",
+					"path": [
+						"api",
+						"Elevator",
+						"request"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Start Simulation",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7094/api/Elevator/start-simulation",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7094",
+					"path": [
+						"api",
+						"Elevator",
+						"start-simulation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Stop Simulation",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7094/api/Elevator/stop-simulation",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7094",
+					"path": [
+						"api",
+						"Elevator",
+						"stop-simulation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

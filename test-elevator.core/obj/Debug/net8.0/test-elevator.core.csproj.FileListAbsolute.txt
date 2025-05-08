@@ -10,3 +10,16 @@ D:\Work\Test\test-elevator\test-elevator.api\test-elevator.core\obj\Debug\net8.0
 D:\Work\Test\test-elevator\test-elevator.api\test-elevator.core\obj\Debug\net8.0\refint\test-elevator.core.dll
 D:\Work\Test\test-elevator\test-elevator.api\test-elevator.core\obj\Debug\net8.0\test-elevator.core.pdb
 D:\Work\Test\test-elevator\test-elevator.api\test-elevator.core\obj\Debug\net8.0\ref\test-elevator.core.dll
+D:\Work\test-elevator-api\test-elevator.core\bin\Debug\net8.0\test-elevator.core.deps.json
+D:\Work\test-elevator-api\test-elevator.core\bin\Debug\net8.0\test-elevator.core.dll
+D:\Work\test-elevator-api\test-elevator.core\bin\Debug\net8.0\test-elevator.core.pdb
+D:\Work\test-elevator-api\test-elevator.core\obj\Debug\net8.0\test-elevator.core.csproj.AssemblyReference.cache
+D:\Work\test-elevator-api\test-elevator.core\obj\Debug\net8.0\test-elevator.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\test-elevator-api\test-elevator.core\obj\Debug\net8.0\test-elevator.core.AssemblyInfoInputs.cache
+D:\Work\test-elevator-api\test-elevator.core\obj\Debug\net8.0\test-elevator.core.AssemblyInfo.cs
+D:\Work\test-elevator-api\test-elevator.core\obj\Debug\net8.0\test-elevator.core.csproj.CoreCompileInputs.cache
+D:\Work\test-elevator-api\test-elevator.core\obj\Debug\net8.0\test-elevator.core.sourcelink.json
+D:\Work\test-elevator-api\test-elevator.core\obj\Debug\net8.0\test-elevator.core.dll
+D:\Work\test-elevator-api\test-elevator.core\obj\Debug\net8.0\refint\test-elevator.core.dll
+D:\Work\test-elevator-api\test-elevator.core\obj\Debug\net8.0\test-elevator.core.pdb
+D:\Work\test-elevator-api\test-elevator.core\obj\Debug\net8.0\ref\test-elevator.core.dll

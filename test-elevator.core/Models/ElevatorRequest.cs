@@ -1,4 +1,6 @@
-﻿namespace test_elevator.core.Models
+﻿using test_elevator.core.Enums;
+
+namespace test_elevator.core.Models
 {
     /// <summary>
     /// Represents a request for elevator service
@@ -34,16 +36,5 @@
             var expectedDirection = SourceFloor < DestinationFloor ? Direction.Up : Direction.Down;
             return Direction == expectedDirection;
         }
-    }
-
-    /// <summary>
-    /// Represents the status of an elevator request
-    /// </summary>
-    public enum RequestStatus
-    {
-        Pending,
-        InProgress,
-        Completed,
-        Cancelled
     }
 }

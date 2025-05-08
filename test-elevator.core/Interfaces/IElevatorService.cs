@@ -1,4 +1,6 @@
-﻿using test_elevator.core.Models;
+﻿using test_elevator.core.DTOs;
+using test_elevator.core.Enums;
+using test_elevator.core.Models;
 
 namespace test_elevator.core.Interfaces
 {
@@ -24,5 +26,10 @@ namespace test_elevator.core.Interfaces
         /// Starts the elevator simulation
         /// </summary>
         void StartSimulation();
+
+        /// <summary>
+        /// Stops the elevator simulation
+        /// </summary>
+        void StopSimulation();
     }
 }

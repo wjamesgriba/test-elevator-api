@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\Test\\test-elevator\\test-elevator.api\\test-elevator.core\\test-elevator.core.csproj",
+      "projectUniqueName": "D:\\Work\\test-elevator-api\\test-elevator.core\\test-elevator.core.csproj",
       "projectName": "test-elevator.core",
-      "projectPath": "D:\\Work\\Test\\test-elevator\\test-elevator.api\\test-elevator.core\\test-elevator.core.csproj",
+      "projectPath": "D:\\Work\\test-elevator-api\\test-elevator.core\\test-elevator.core.csproj",
       "packagesPath": "C:\\Users\\Jaycee Griba\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\Test\\test-elevator\\test-elevator.api\\test-elevator.core\\obj\\",
+      "outputPath": "D:\\Work\\test-elevator-api\\test-elevator.core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

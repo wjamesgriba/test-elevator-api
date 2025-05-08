@@ -52,17 +52,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ElevatorRequest"
+                "$ref": "#/components/schemas/CreateElevatorRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/ElevatorRequest"
+                "$ref": "#/components/schemas/CreateElevatorRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/ElevatorRequest"
+                "$ref": "#/components/schemas/CreateElevatorRequest"
               }
             }
           }
@@ -90,6 +90,30 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/api/Elevator/start-simulation": {
+      "post": {
+        "tags": [
+          "Elevator"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Elevator/stop-simulation": {
+      "post": {
+        "tags": [
+          "Elevator"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -136,16 +160,7 @@
   },
   "components": {
     "schemas": {
-      "Direction": {
-        "enum": [
-          0,
-          1,
-          2
-        ],
-        "type": "integer",
-        "format": "int32"
-      },
-      "ElevatorRequest": {
+      "CreateElevatorRequest": {
         "type": "object",
         "properties": {
           "sourceFloor": {
@@ -158,21 +173,18 @@
           },
           "direction": {
             "$ref": "#/components/schemas/Direction"
-          },
-          "requestTime": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "status": {
-            "$ref": "#/components/schemas/RequestStatus"
-          },
-          "assignedElevatorId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
           }
         },
         "additionalProperties": false
+      },
+      "Direction": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
       },
       "ElevatorState": {
         "enum": [
@@ -238,16 +250,6 @@
           }
         },
         "additionalProperties": { }
-      },
-      "RequestStatus": {
-        "enum": [
-          0,
-          1,
-          2,
-          3
-        ],
-        "type": "integer",
-        "format": "int32"
       },
       "WeatherForecast": {
         "type": "object",

@@ -1,8 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using test_elevator.core.Enums;
 using test_elevator.core.Interfaces;
 using test_elevator.core.Models;
 
@@ -70,12 +67,14 @@ namespace test_elevator.core.Services
                 Direction = direction
             };
 
+
             var elevator = AssignElevator(request);
             if (elevator != null)
             {
                 request.AssignedElevatorId = elevator.Id;
                 elevator.AddRequest(request);
-                _logger.LogInformation($"Request assigned to Elevator {elevator.Id}: Floor {sourceFloor} to {destinationFloor}, Direction: {direction}");
+                _logger.LogInformation($"Request assigned to Elevator {elevator.Id}: " +
+                    $"Floor {sourceFloor} to {destinationFloor}, Direction: {direction}");
             }
             else
             {

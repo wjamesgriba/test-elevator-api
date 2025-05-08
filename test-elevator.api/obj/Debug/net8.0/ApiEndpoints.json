@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "test_elevator.core.Models.ElevatorRequest",
+        "Name": "elevatorRequest",
+        "Type": "test_elevator.core.DTOs.CreateElevatorRequest",
         "IsRequired": true
       }
     ],
@@ -32,6 +32,22 @@
   },
   {
     "ContainingType": "test_elevator.api.Controllers.ElevatorController",
+    "Method": "StartSimulation",
+    "RelativePath": "api/Elevator/start-simulation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "test_elevator.api.Controllers.ElevatorController",
     "Method": "GetStatuses",
     "RelativePath": "api/Elevator/status",
     "HttpMethod": "GET",
@@ -46,6 +62,22 @@
           "application/json",
           "text/json"
         ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "test_elevator.api.Controllers.ElevatorController",
+    "Method": "StopSimulation",
+    "RelativePath": "api/Elevator/stop-simulation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 200
       }
     ]
