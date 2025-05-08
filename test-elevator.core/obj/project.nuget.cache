@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "zlHuEhg0Fig=",
+  "success": true,
+  "projectFilePath": "D:\\Work\\Test\\test-elevator\\test-elevator.api\\test-elevator.core\\test-elevator.core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.4\\microsoft.extensions.logging.abstractions.9.0.4.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.4\\system.diagnostics.diagnosticsource.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "7bjI7xWkZcJvBxbKCWBhltP5+QEyo5052GTVC8/yI2Q=",
+  "Source": "test-elevator.api",
+  "BasePath": "_content/test-elevator.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

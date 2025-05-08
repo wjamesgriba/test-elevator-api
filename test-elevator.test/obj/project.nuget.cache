@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "lXJAb4epKls=",
+  "success": true,
+  "projectFilePath": "D:\\Work\\Test\\test-elevator\\test-elevator.api\\test-elevator.test\\test-elevator.test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\microsoft.codecoverage\\17.9.0\\microsoft.codecoverage.17.9.0.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.4\\microsoft.extensions.logging.abstractions.9.0.4.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\microsoft.net.test.sdk\\17.9.0\\microsoft.net.test.sdk.17.9.0.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.9.0\\microsoft.testplatform.objectmodel.17.9.0.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\microsoft.testplatform.testhost\\17.9.0\\microsoft.testplatform.testhost.17.9.0.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\moq\\4.20.70\\moq.4.20.70.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\nunit.analyzers\\3.10.0\\nunit.analyzers.3.10.0.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.4\\system.diagnostics.diagnosticsource.9.0.4.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jaycee Griba\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
